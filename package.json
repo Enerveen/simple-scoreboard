@@ -1,0 +1,31 @@
+{
+  "name": "simple-scoreboard",
+  "version": "1.0.0",
+  "description": "Simple scoreboard library",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "rm -rf build/ && tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enerveen/simple-scoreboard.git"
+  },
+  "keywords": [
+    "scoreboard"
+  ],
+  "author": "Uladzimir Yahorau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enerveen/simple-scoreboard/issues"
+  },
+  "homepage": "https://github.com/Enerveen/simple-scoreboard#readme"
+}
