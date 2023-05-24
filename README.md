@@ -5,6 +5,7 @@ Use `yarn test` to run tests, and `yarn build` to build the project. Scoreboard 
 ### Scoreboard methods
 `addMatch(matchId: string, homeTeamName: string, awayTeamName: string): void`. 
 Adds a new match to the scoreboard with the provided id, home team name, and away team name parameters. Throws an error if match with the same id as provided already exists on a scoreboard.  
+
 `updateScore(matchId: string, homeTeamScore: number, awayTeamScore: number): void`. 
 This method updates the scores of a match with the provided id. If a match with the specified id exists in the matches array, the scores of the home team and away team are updated accordingly. Throws an error if a match with the specified matchId does not exist.  
 
