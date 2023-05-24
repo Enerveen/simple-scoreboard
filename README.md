@@ -1,5 +1,5 @@
-#Simple Scoreboard
-##Documentation
+# Simple Scoreboard
+## Documentation
 Use `yarn test` to run tests, and `yarn build` to build the project. Scoreboard class can be exported either from index.js or Scoreboard.js file after the build is complete. Documentation of the methods of this class can be found below.
 
 ### Scoreboard methods
