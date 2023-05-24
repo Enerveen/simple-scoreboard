@@ -5,16 +5,16 @@ Use `yarn test` to run tests, and `yarn build` to build the project. Scoreboard 
 ### Scoreboard methods
 `addMatch(matchId: string, homeTeamName: string, awayTeamName: string): void`
 
-Adds a new match to the scoreboard with the provided id, home team name, and away team name parameters. Throws an error if match with the same id as provided already exists on a scoreboard.__
+Adds a new match to the scoreboard with the provided id, home team name, and away team name parameters. Throws an error if match with the same id as provided already exists on a scoreboard.  
 `updateScore(matchId: string, homeTeamScore: number, awayTeamScore: number): void`
 
 This method updates the scores of a match with the provided id. If a match with the specified id exists in the matches array, the scores of the home team and away team are updated accordingly. Throws an error if a match with the specified matchId does not exist.__
 `removeMatch(matchId: string): void`
 
-This method removes a match from the scoreboard based on the provided id. Throws an error if no match with the specified id is found.__
+This method removes a match from the scoreboard based on the provided id. Throws an error if no match with the specified id is found.  
 `showScoreboard(): string`
 
-This method returns a formatted string representation of the current scoreboard. Matches are sorted accordingly to their total score.__
+This method returns a formatted string representation of the current scoreboard. Matches are sorted accordingly to their total score.  
 
 ## Notes and thoughts
 1) Considering we are following the SOLID principles precisely, the methods of `Scoreboard` class should be separated into another class (e.g. `ScoreboardManager`) to adhere to the Single Responsibility principle. However, I found such an approach excessive in this particular case as the first point of the guidelines says *Keep it simple*. 
